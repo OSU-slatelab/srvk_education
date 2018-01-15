@@ -165,6 +165,8 @@ Vagrant.configure(2) do |config|
     cd /home/vagrant/data
     tar -xzf /vagrant/protected/tidigits.tgz
 
+    # install xdot
+    apt-get install --force-yes -y xdot
     
    SHELL
 
